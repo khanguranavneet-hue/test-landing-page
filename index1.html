@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson: Stars</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div>
+      <div class="kicker">Candlestick Charting Essentials · Unit 1: Reversal Patterns</div>
+      <h1>Lesson: Stars</h1>
+    </div>
+    <div class="prog"><div class="bar"><span id="barfill"></span></div><small id="proglabel"></small></div>
+  </header>
+
+  <div class="layout">
+    <nav id="menu" aria-label="Lesson sections"></nav>
+
+    <main id="stage">
+
+      <!-- 1 -->
+      <section class="page" data-title="Welcome">
+        <h2>Reading the pause before a turn</h2>
+        <p>Trends rarely end with a bang. More often there is a moment of hesitation first: buyers and sellers stop pushing in the same direction, and the candles shrink. Candlestick "stars" capture that hesitation in one small candle.</p>
+        <h3>By the end of this lesson you can</h3>
+        <ul>
+          <li>Define a <b>star</b> and a <b>doji star</b>, and say what they tell you about the prevailing trend.</li>
+          <li>Identify a <b>morning star</b> and an <b>evening star</b>, and name the levels they create.</li>
+          <li>Explain the <b>abandoned baby</b> and how it differs from a plain doji star.</li>
+          <li>Judge when the strict rules can be relaxed (forex, indexes, intraday charts).</li>
+          <li>Plan an entry so the timing of the signal does not wreck your risk/reward.</li>
+        </ul>
+        <div class="callout"><b class="t">Quick refresher</b>
+          The <b>real body</b> is the box between open and close. <b>White (hollow)</b> means the close was above the open; <b>black (filled)</b> means the close was below the open. The thin lines are the <b>shadows</b> (high and low).</div>
+        <p>Estimated time: 15–20 minutes. There are short knowledge checks along the way and a scored quiz at the end (pass mark 80%).</p>
+        <p class="src">Concepts in this lesson follow Chapter 5 of Steve Nison's <i>Japanese Candlestick Charting Techniques</i>. The wording, diagrams and questions are original to this course; consult the book for the author's own examples and charts.</p>
+      </section>
+
+      <!-- 2 -->
+      <section class="page" data-title="What is a star?">
+        <h2>What is a star?</h2>
+        <p>A <b>star</b> is a candle with a <b>small real body</b> (white or black) that <b>gaps away</b> from the large real body just before it. The key test is about the <i>bodies</i>: they must not overlap. The star's shadow is allowed to dip into the prior candle's shadow range.</p>
+        <div class="grid">
+          <figure><div class="chart" data-chart='{"alt":"Uptrend ending in a long white candle followed by a small-bodied star above it","c":[[30,35,28,34],[35,42,33,40],[41,48,40,47],[50,72,48,70],[75,80,73,77]],"labels":["","","","long body","star"]}'></div><figcaption>Star in an uptrend: a small body above a long white body.</figcaption></figure>
+          <figure><div class="chart" data-chart='{"alt":"Downtrend ending in a long black candle followed by a small-bodied star below it","c":[[80,82,76,77],[76,77,70,71],[70,71,64,65],[62,63,40,42],[36,40,33,34]],"labels":["","","","long body","star"]}'></div><figcaption>Star in a downtrend: a small body below a long black body.</figcaption></figure>
+        </div>
+        <h3>Why it matters</h3>
+        <p>A long candle in the trend's direction shows one side firmly in control. The star shows that control has turned into a <b>stalemate</b>: either the dominant side is tiring or the other side is pushing back. Either way, the market is now more exposed to a pullback or reversal.</p>
+        <ul>
+          <li>If the star's body is so small that open and close are about equal, it is a <b>doji star</b>, an even stronger warning.</li>
+          <li>A star in a downtrend is sometimes nicknamed a <b>raindrop</b>.</li>
+          <li>Stars are the middle ingredient in four reversal patterns: morning star, evening star, the doji stars, and the shooting star. This sample covers the first three.</li>
+        </ul>
+        <div class="kc" data-kc="kc1"></div>
+      </section>
+
+      <!-- 3 -->
+      <section class="page" data-title="Morning star">
+        <h2>The morning star (bottom reversal)</h2>
+        <p>The name comes from the "morning star" that appears before sunrise: it hints that brighter (higher) prices may follow. It needs a prior downtrend and has three candles:</p>
+        <ol>
+          <li><b>Long black body.</b> Sellers are clearly in charge.</li>
+          <li><b>Small body</b> that does not touch the first body. Sellers can no longer push prices down efficiently.</li>
+          <li><b>White body</b> that rises well into the first candle's black body. Buyers have taken over.</li>
+        </ol>
+        <figure><div class="chart" data-chart='{"alt":"Morning star: long black candle, small star below, long white candle closing deep into the black body, with a dashed support line at the lowest low","c":[[84,86,80,81],[80,81,74,75],[74,75,68,69],[68,69,46,48],[42,45,38,40],[44,66,43,64]],"lines":[{"y":38,"t":"support = lowest low of the three candles"}],"labels":["","","","1","2","3"],"h":240}'></div><figcaption>The lowest low of the three candles is the pattern's support zone.</figcaption></figure>
+        <h3>Quality checks</h3>
+        <ul>
+          <li>An ideal pattern shows a gap between candles 2 and 3 too, but its absence does not seem to weaken the signal in practice.</li>
+          <li>What matters most: candle 2 is a small, indecisive body (a spinning top) and candle 3 closes <b>well into</b> candle 1's body.</li>
+          <li>Volume helps: lighter volume on candle 1 and heavier volume on candle 3 suggests the old trend is fading while the new one gains force.</li>
+        </ul>
+        <div class="callout"><b class="t">Candles can speak early</b>
+          A trendline or channel break is the classic Western signal that a downtrend has ended. A morning star can show up many sessions before that break, giving an earlier heads-up.</div>
+        <div class="kc" data-kc="kc2"></div>
+      </section>
+
+      <!-- 4 -->
+      <section class="page" data-title="Evening star">
+        <h2>The evening star (top reversal)</h2>
+        <p>The mirror image, named for the planet that shows up just before dark. It needs a prior uptrend:</p>
+        <ol>
+          <li><b>Long white body</b>: buyers are in control.</li>
+          <li><b>Star</b>: the first hint of a top.</li>
+          <li><b>Black body</b> that closes sharply back into the first white body: confirmation that the trend has stalled.</li>
+        </ol>
+        <figure><div class="chart" data-chart='{"alt":"Evening star: long white candle, small star above it, long black candle closing deep into the white body, with a dashed resistance line at the highest high","c":[[20,24,18,23],[24,30,23,29],[30,36,29,35],[36,58,35,56],[60,66,59,62],[58,59,40,42]],"lines":[{"y":66,"t":"resistance = highest high of the three candles"}],"labels":["","","","1","2","3"],"h":240}'></div><figcaption>The highest high of the pattern becomes a resistance zone.</figcaption></figure>
+        <h3>Evening star vs. the Western island top</h3>
+        <p>They look alike, but they are not identical tests. An <b>island top</b> needs the whole middle session, shadows included, to sit above the highs of the sessions on either side. An evening star only needs the middle <b>real body</b> to sit above the neighbouring bodies, so it can qualify when an island top would not.</p>
+        <div class="callout"><b class="t">What raises the odds (morning and evening stars)</b>
+          <ul style="margin:6px 0 0">
+            <li>No overlap among the three real bodies.</li>
+            <li>Candle 3 closes deep into candle 1's body.</li>
+            <li>Light volume on candle 1 and heavy volume on candle 3.</li>
+          </ul></div>
+        <div class="callout"><b class="t">A bit of history</b>
+          The full Japanese names are "three-river" morning and evening stars. The label is traced to a famous campaign of the warlord Nobunaga Oda, who had to cross three rivers to take a rich rice-growing region. Hence the idea: once such a pattern forms, its zone is hard to cross, but a close beyond it signals that the attacker has won.</div>
+        <div class="kc" data-kc="kc3"></div>
+      </section>
+
+      <!-- 5 -->
+      <section class="page" data-title="Doji stars & abandoned babies">
+        <h2>Doji stars and abandoned babies</h2>
+        <p>When the middle candle is a <b>doji</b> (open and close nearly equal) instead of a small body, the patterns are called the <b>morning doji star</b> and <b>evening doji star</b>. The market has lost its directional bias entirely for that session, which makes the warning stronger.</p>
+        <div class="grid">
+          <figure><div class="chart" data-chart='{"alt":"Morning doji star: long black candle, doji below, long white candle","c":[[84,86,80,81],[80,81,74,75],[68,69,46,48],[41,45,37,41.4],[44,66,43,64]],"labels":["","","1","2 doji","3"]}'></div><figcaption>Morning doji star: the star is a doji.</figcaption></figure>
+          <figure><div class="chart" data-chart='{"alt":"Abandoned baby top: long white candle, a doji whose shadow is entirely above the neighbours, then a long black candle","c":[[24,28,22,27],[28,34,27,33],[34,56,33,54],[66,72,63,66.4],[58,60,40,42]],"labels":["","","1","2 doji","3"]}'></div><figcaption>Abandoned baby top: gaps on both sides of the doji.</figcaption></figure>
+          <figure><div class="chart" data-chart='{"alt":"Abandoned baby bottom: long black candle, a doji whose shadow is entirely below the neighbours, then a long white candle","c":[[96,98,92,93],[92,93,86,87],[86,88,60,62],[50,54,46,50.4],[58,84,56,82]],"labels":["","","1","2 doji","3"]}'></div><figcaption>Abandoned baby bottom: the mirror image.</figcaption></figure>
+        </div>
+        <h3>The abandoned baby</h3>
+        <p>If the doji's <b>shadows</b> do not touch the shadows of either neighbour (a true gap before and after it), the pattern is an <b>abandoned baby</b>: a top if it follows an uptrend, a bottom if it follows a downtrend. It is the candlestick version of a Western island top or bottom whose "island" is a doji, and it is <b>very rare</b>.</p>
+        <p>A near miss counts for something. If the middle candle is tiny enough to be read as a doji, the pattern can be treated as a close variation, even when the middle candle is also a hammer.</p>
+        <div class="kc" data-kc="kc4"></div>
+      </section>
+
+      <!-- 6 -->
+      <section class="page" data-title="Bending the rules">
+        <h2>When the strict rules can bend</h2>
+        <p>The "bodies must not touch" rule assumes a clear gap between one session's close and the next session's open. Some markets rarely give you that:</p>
+        <ul>
+          <li><b>Foreign exchange</b>: no official open or close.</li>
+          <li><b>Many indexes</b>: the open is usually very close to the previous close.</li>
+          <li><b>Intraday charts</b>: on a short timeframe (say 15 minutes) the new bar opens almost exactly where the last one closed.</li>
+        </ul>
+        <p>In these cases you can accept a morning or evening star whose bodies touch end to end, and give more weight to context.</p>
+        <figure><div class="chart" data-chart='{"alt":"Intraday-style morning star where each body starts where the previous body ended","c":[[84,86,78,79],[79,80,70,71],[71,72,60,61],[60,61,40,42],[42,43,36,38],[38,58,36,56]],"lines":[{"y":40,"t":"old support broken, then recovered"}],"labels":["","","","1","2","3"],"h":240}'></div><figcaption>Bodies touch, yet the pattern still reads as a morning star on a short-term chart.</figcaption></figure>
+        <div class="callout"><b class="t">Context adds credibility</b>
+          In the intraday case, the pattern becomes more convincing if the last candle also pushes price back above a support level that had just been broken. A market that makes a new low and cannot hold it is often hinting at a reversal.</div>
+        <div class="kc" data-kc="kc5"></div>
+      </section>
+
+      <!-- 7 -->
+      <section class="page" data-title="Trading stars">
+        <h2>Trading stars: timing and risk</h2>
+        <p>Stars are three-candle patterns, so you can only call them complete at the <b>close of candle 3</b>. By then price has often moved a long way from the extreme, which can make the trade unattractive: your stop sits far away, but your reward may be small.</p>
+        <h3>A practical option</h3>
+        <ol>
+          <li>Let the pattern complete and note its extreme (the support or resistance zone it created).</li>
+          <li>Instead of chasing, wait for a pullback toward that zone. There is no guarantee one will come.</li>
+          <li>Enter near the zone with your stop just beyond the pattern's extreme. A tighter stop improves the ratio.</li>
+        </ol>
+        <p>Reversal patterns work best alongside other evidence: failed rallies at the evening star's high, a shrinking of real bodies near the turn, or a round-number level such as a "century" mark can all add confirmation.</p>
+        <h3>Try it: risk/reward</h3>
+        <p>Illustrative numbers only. Adjust them to see why entry location matters.</p>
+        <div class="calc">
+          <div><label for="in-entry">Entry</label><input id="in-entry" type="number" value="31" step="0.5"></div>
+          <div><label for="in-stop">Stop</label><input id="in-stop" type="number" value="34" step="0.5"></div>
+          <div><label for="in-target">Target</label><input id="in-target" type="number" value="22" step="0.5"></div>
+          <div><label>Reward : risk</label><div class="out" id="rr">–</div></div>
+        </div>
+        <p id="rrnote" class="rv"></p>
+        <div class="kc" data-kc="kc6"></div>
+      </section>
+
+      <!-- 8 -->
+      <section class="page" data-title="Watch: stars in action">
+        <h2>Watch: stars in action</h2>
+        <p>Use a video to show real charts with morning and evening stars. Pause at each pattern and name candles 1, 2 and 3, then say where support or resistance sits.</p>
+        <div class="video" id="videoslot"></div>
+        <h3>While you watch</h3>
+        <ul>
+          <li>Which patterns had a gap between candles 2 and 3, and which did not?</li>
+          <li>Did the pattern's high or low act as support or resistance later?</li>
+        </ul>
+      </section>
+
+      <!-- 9 -->
+      <section class="page" data-title="Final quiz" id="quizpage">
+        <h2>Final quiz</h2>
+        <p>Answer all questions, then submit. You need <b>80%</b> to pass; you can retry.</p>
+        <form id="quizform"></form>
+        <p><button class="btn primary" id="submitq" type="button">Submit answers</button></p>
+        <div id="qresult"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    <button id="prev" type="button">← Back</button>
+    <span id="pagelabel"></span>
+    <button id="next" class="primary" type="button">Next →</button>
+  </footer>
+</div>
+<script src="js/scorm.js"></script>
+<script src="js/course.js"></script>
+</body>
+</html>
