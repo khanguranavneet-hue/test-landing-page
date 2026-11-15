@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.example.candlesticks.stars" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-1">
+    <organization identifier="ORG-1">
+      <title>InvestED · Candlestick Charting Essentials</title>
+      <item identifier="UNIT-1">
+        <title>Unit 1: Reversal Patterns</title>
+        <item identifier="ITEM-1" identifierref="RES-1">
+          <title>Lesson: Stars</title>
+          <adlcp:masteryscore>80</adlcp:masteryscore>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="css/invested-design-tokens.css"/>
+      <file href="css/style.css"/>
+      <file href="js/scorm.js"/>
+      <file href="js/course.js"/>
+    </resource>
+  </resources>
+</manifest>

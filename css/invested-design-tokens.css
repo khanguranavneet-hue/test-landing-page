@@ -1,0 +1,12 @@
+/* InvestED design tokens — v1.0 */
+:root {
+  --ie-obsidian: #101419;
+  --ie-off-white: #F3F1E9;
+  --ie-electric-mint: #B8F36B;
+  --ie-steel: #737E89;
+  --ie-amber: #D5A85F;
+  --ie-digital-violet: #8B8DE1;
+  --ie-coral-stop: #E47778;
+  --ie-font-display: "IBM Plex Mono", monospace;
+  --ie-font-body: "IBM Plex Sans", sans-serif;
+}
