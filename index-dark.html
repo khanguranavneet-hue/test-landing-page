@@ -120,6 +120,19 @@ footer .copy { font-family: var(--font-display); font-size: 13px; }
   .levels { grid-template-columns: minmax(0, 1fr); gap: 32px; }
   body { font-size: 16px; }
 }
+
+/* Dark theme overrides */
+:root { --muted: #9aa4ae; --line: #262e37; color-scheme: dark; }
+html, body { background: var(--obsidian); color: var(--off-white); }
+a:focus-visible { outline-color: var(--mint); }
+h1 .own, h1 .own span { color: var(--off-white); }
+.lede strong { color: var(--off-white); }
+.level h2 { color: var(--off-white); }
+.statement em { color: var(--obsidian); }
+.candles { opacity: .2; }
+.frame { background-color: rgba(23, 29, 36, .82); }
+.play { background: var(--obsidian); border-color: var(--off-white); }
+.soon span { color: #D5A85F; }
 </style>
 </head>
 <body>
@@ -131,8 +144,8 @@ footer .copy { font-family: var(--font-display); font-size: 13px; }
           <path d="M46 65H210" stroke="#B8F36B" stroke-width="12" stroke-dasharray="24 19"/>
           <path d="M46 162.5H210" stroke="#737E89" stroke-width="12" stroke-dasharray="24 19"/>
           <path d="M46 195H210" stroke="#E47778" stroke-width="12" stroke-dasharray="24 19"/>
-          <path d="M128 31V225" stroke="#101419" stroke-width="9"/>
-          <rect x="116" y="102" width="24" height="58" fill="#101419" stroke="none"/>
+          <path d="M128 31V225" stroke="#F3F1E9" stroke-width="9"/>
+          <rect x="116" y="102" width="24" height="58" fill="#F3F1E9" stroke="none"/>
         </g>
       </svg>
       <span>invest-<b>ED</b></span>
